@@ -1,0 +1,39 @@
+
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import Order from '../lib/Order.js';
+
+class Order extends Component {
+    
+    constructor() {
+        super();
+    }
+
+    render() {
+
+        return(
+            <div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>User</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        );
+    }
+}
+
+export default Order;

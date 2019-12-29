@@ -1,0 +1,5 @@
+node_modules/
+build/
+www/builds/
+*.swp
+npm-debug.log

@@ -1,0 +1,30 @@
+{
+  "name": "bst",
+  "version": "1.0.0",
+  "description": "Binary Search Tree",
+  "main": "index.js",
+  "scripts": {
+      "test": "./node_modules/.bin/jest"
+  },
+  "jest": {
+      "transform": {
+	  ".*": "./node_modules/babel-jest"
+      }
+  },
+  "keywords": [
+      "javascript",
+      "nodejs"
+  ],
+  "author": "Rohan Almeida",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.3.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "jest-cli": "^18.1.0"
+  }
+}

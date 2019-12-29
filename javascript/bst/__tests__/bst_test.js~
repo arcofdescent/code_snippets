@@ -1,0 +1,9 @@
+
+jest.autoMockOff()
+
+describe('BST', () => {
+    it('new BST()', () => {
+	expect(2+2).toEqual(4)
+    })
+})
+

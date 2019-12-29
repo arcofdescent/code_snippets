@@ -1,0 +1,38 @@
+
+* Testing/QA (Quality Assurance)
+
+* Testing
+  - what is a test?
+  - why do we need tests?
+    - verification that it works as expected
+    - sanity checks
+    - input validation
+    - bounds check
+    - stress/load test
+    - regression testing
+    - automated tests reduce human error
+    - refactoring
+
+* TDD
+  - write tests first. they will fail
+  - make them pass. see your module come to life
+  - writing tests first help define your module's API
+
+* Coverage
+  - what is test coverage
+  - all conditional branches are executed
+  - the danger of 100% coverage
+
+* Profiling
+  - statement profiling
+  - CPU profiling
+  - Memory profiling
+  - QA should consider profiling as part of the process
+
+* Benchmarking
+  - compare implementations
+  - know how fast your functions run. feel good.
+
+* Links
+  - Jest - https://facebook.github.io/jest/
+  - 

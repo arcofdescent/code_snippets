@@ -1,0 +1,17 @@
+
+from random import randint
+
+def fibonacci(n):
+    if n <= 1:
+        return 1
+
+    return fibonacci(n-1) + fibonacci(n-2)
+
+arr = []
+for i in range(20):
+    arr.append(randint(0, 35))
+    
+fib_arr = [fibonacci(elem) for elem in arr]
+
+print(arr)
+print(fib_arr)
